@@ -2,13 +2,22 @@ body {
     background-color: black;
 }
 
+.top-bar{
+    position: fixed; 
+    background-color: black;
+    width: 100%;
+    margin-bottom: 7px;
+}
+
 .top-buttons {
-    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-family: 'Barlow', sans-serif;
     justify-content: flex-start;
     width: 100px;
     height: 50px;
     border: 0;
-    border-right: 3px solid #d4bd6e;
+    border-right: 2px solid #d4bd6e;
     background-color: black;
     color: #d4bd6e;
     font-size: 16px;
@@ -18,10 +27,6 @@ body {
     border-right: 0;
 }
 
-.separator1 {
-    height: 7px;
-}
-
 .header {
     background-color: #babab5;
     display: flex;
@@ -29,25 +34,30 @@ body {
     font-size: 40px;
     color: white;
     height: 130px;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-.separator2 {
-    height: 30px;
+    font-family: 'Barlow', sans-serif;
+    margin-top: 30px;
 }
 
 .about-me {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     background-color: #babab5;
     font-size: 40px;
     color: white;
     height: 400px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Barlow', sans-serif;
 }
 
-.separator3 {
-    height: 30px;
+.projects{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #babab5;
+    font-size: 40px;
+    color: white;
+    height: 400px;
+    font-family: 'Barlow', sans-serif;
 }
 
 .contact-me {
@@ -57,25 +67,24 @@ body {
     font-size: 40px;
     color: white;
     height: 400px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Barlow', sans-serif;
     margin-top:30px;
 }
 
 .home {
-    font-family: 'Roboto Condensed', sans-serif;
-/*     display: flex;
-    justify-content: center; */
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-family: 'Barlow', sans-serif;
     width: 100px;
     height: 50px;
     border: 0;
-    border-right: 3px solid #d4bd6e;
-    border-left: 3px solid #d4bd6e;
+    border-right: 2px solid #d4bd6e;
+    border-left: 2px solid #d4bd6e;
     background-color: black;
     color: #d4bd6e;
     font-size: 16px;
-     margin-left:47%;
 }
-/* .text-center{
-     margin-left:auto;
-    margin-right:auto;
-} */
+a {
+    color: none !important;
+    text-decoration: none !important;
+}
