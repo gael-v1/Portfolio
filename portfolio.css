@@ -6,9 +6,23 @@ body {
     position: fixed; 
     background-color: black;
     width: 100%;
-    margin-bottom: 7px;
+    top: 0;
+    overflow: hidden;
 }
 
+.top-buttons:hover{
+    background-color: #9D968D;
+    color: #373A36;
+    margin-left: -4px;
+    font-weight: bold;
+}
+
+.home:hover{
+    background-color: #9D968D;
+    color: black;
+    margin-left: -4px;
+    font-weight: bold;
+}
 
 .top-buttons {
     margin-top: 7px;
@@ -18,36 +32,55 @@ body {
     width: 100px;
     height: 50px;
     border: 0;
-    border-right: 2px solid #d4bd6e;
+    border-right: 2px solid #ceb888;
     background-color: black;
-    color: #d4bd6e;
+    color: #ceb888;
     font-size: 16px;
+    font-weight: bold;
+    margin-left: -4px;
 }
 
 .contact-me-button {
     border-right: 0;
 }
 
+h1{
+    font-size: 50px;
+}
+
 .header {
-    background-color: #babab5;
+    background-color: #373A36;
     display: flex;
     justify-content: center;
-    font-size: 40px;
-    color: white;
-    height: 130px;
+    font-size: 23px;
+    color: #9D968D;
+    height: 400px;
     font-family: 'Barlow', sans-serif;
-    margin-top: 30px;
+    margin-top: 64px;
+    scroll-margin-top: 84px;
+    border: 15px solid #ceb888;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: underline #ceb888;
 }
 
 .about-me {
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    background-color: #babab5;
-    font-size: 40px;
-    color: white;
+    background-color: #9D968D;
+    font-size: 20px;
+    color: #373A36;
     height: 400px;
     font-family: 'Barlow', sans-serif;
+    scroll-margin-top: 64px;
+    border: 15px solid #ceb888;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: underline #ceb888;
+    font-weight: bold;
 }
 
 .projects{
@@ -59,6 +92,8 @@ body {
     color: white;
     height: 400px;
     font-family: 'Barlow', sans-serif;
+    scroll-margin-top: 64px;
+    font-weight: bold;
 }
 
 .contact-me {
@@ -70,6 +105,8 @@ body {
     height: 400px;
     font-family: 'Barlow', sans-serif;
     margin-top:30px;
+    scroll-margin-top: 64px;
+    font-weight: bold;
 }
 
 .home {
@@ -79,12 +116,15 @@ body {
     width: 100px;
     height: 50px;
     border: 0;
-    border-right: 2px solid #d4bd6e;
-    border-left: 2px solid #d4bd6e;
+    border-right: 2px solid #ceb888;
+    border-left: 2px solid #ceb888;
     background-color: black;
-    color: #d4bd6e;
+    color: #ceb888;
     font-size: 16px;
+    scroll-margin-top: 64px;
+    font-weight: bold;
 }
+
 a {
     color: none !important;
     text-decoration: none !important;
