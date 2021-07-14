@@ -8,23 +8,26 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="portfolio.css">
     <link href="portfolio.js" rel="">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body id="home">
-    <div class="top-bar">
+    <div class="top-bar fixed-top">
         <a href="#about-me">
-        <button class="top-buttons">
-            About me
-        </button>
-        </a>
-
-        <a href="#projects">
             <button class="top-buttons">
-                Projects
+                About me
             </button>
         </a>
 
+        <a href="#projects">
+            <button class="top-buttons projects-button">
+                Projects
+            </button>
+        </a>
 
         <a href="#contact-me">
             <button class="top-buttons contact-me-button">
@@ -33,31 +36,130 @@
         </a>
     </div>
 
-
     <div class="header" id="header">
-        <h1>Gael Villegas</h1>
-        <p> hello my name is Gael</p>
+        <h1 class="text-center main-topic">Gael Villegas</h1>
+        <div class="inner-text">
+            
+            <div class="container">
+                <h2></h2>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="image" src="https://i.imgur.com/mdFWBi8.png" alt="">
+                        </div>
+
+                        <div class="item">
+                            <img class="images" src="https://i.imgur.com/Hs1m0jM.png" alt="">
+                        </div>
+
+                        <div class="item">
+                            <img class="image" src="https://i.imgur.com/mdFWBi8.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="about-me" id="about-me">
-        <h1>About me</h1>
-        <p>jdhbfiaudhsfiuahdsf</p>
+        <h1 class="text-center">About me</h1>
+        <h1 class="topic">General</h1>
+        <div class="inner-text">
+            <p>I was born and raised in Indiana. I have enjoyed learning about and experimenting with
+                technology my whole life. The first time I can remember being curious about technology was when I first
+                saw a
+                touch-screen device. I didn't understand how or why it worked but I just appreciated the fact that it
+                did.
+                Ever since then I explored the world of tech myself, mainly computers and phones and I was self-taught
+                through the help of YouTube. I was particularly
+            </p>
+            <p class="fix-text">intersted in the specs of these devices. I learned what it all
+                meant and now I give tech suggestions to friends and family based on their needs. Eventually I decided
+                that I needed to learn how to code. So, I started taking
+            </p>
+            <p class="fix-text">
+                the computer science classes in my school and that's
+                where I currently am.
+            </p>
+        </div>
+
+
+        <h1 class="topic">High School & College</h1>
+        <div class="inner-text">
+            <p>
+                I am currently a senior at Cathedral High School. I was one of two students from my
+                middle school to go to Cathedral. It was difficult to get used to everything at first but eventually I
+                got comfortable
+                and It's been a great experience. The most important classes to me are my computer science classes and
+                my pre-engineering
+                classes. Engineering was what I thought I'd pursue when I was younger but that changed when I started
+                learning how to code. I... -->
+            </p>
+        </div>
+
+        <h1 class="topic">Nextech / Catapult</h1>
+        <div class="inner-text">
+            <p>Sample text -- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
+        </div>
     </div>
 
     <div class="projects" id="projects">
-        <p>Projects</p>
+        <h1 class="text-center">Projects</h1>
+        <div class="inner-text">
+            <img class="project-place-hold" src="https://i.imgur.com/XlqyvH4.png">
+            <img src="https://i.imgur.com/XlqyvH4.png">
+        </div>
     </div>
 
     <div class="contact-me" id="contact-me">
-        <p>Contact me</p>
+        <h1 class="text-center">Contact me</h1>
+        <div class="inner-text">
+            <p></p>
+            <form class="contact-form" action="https://formspree.io/f/moqyndzw" method="POST">
+                <label>
+                    Your email:
+                    <input type="email" name="_replyto">
+                </label>
+                <label class="vertical-forms">
+                    Your message:
+                    <textarea class="decor-text-area" name="message"></textarea>
+                </label>
+
+                <!-- your other form fields go here -->
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
     </div>
 
     <div class="text-center">
         <a href="#header">
-        <button class="home">
-            Home
-        </button>
-    </a>
+            <button class="home">
+                Back to top
+            </button>
+        </a>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
@@ -66,6 +168,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
