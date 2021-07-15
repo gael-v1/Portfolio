@@ -6,13 +6,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="portfolio.css">
+        <link rel="stylesheet" href="portfolio.css">
     <link href="portfolio.js" rel="">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
 </head>
 
 <body id="home">
@@ -39,7 +40,7 @@
     <div class="header" id="header">
         <h1 class="text-center main-topic">Gael Villegas</h1>
         <div class="inner-text">
-            
+
             <div class="container">
                 <h2></h2>
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -53,11 +54,11 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img class="image" src="https://i.imgur.com/mdFWBi8.png" alt="">
+                            <img class="image" src="https://i.imgur.com/xO9q24N.png" alt="">
                         </div>
 
                         <div class="item">
-                            <img class="images" src="https://i.imgur.com/Hs1m0jM.png" alt="">
+                            <img class="images" src="https://i.imgur.com/kcmWR2G.png" alt="">
                         </div>
 
                         <div class="item">
@@ -80,7 +81,7 @@
     </div>
 
     <div class="about-me" id="about-me">
-        <h1 class="text-center">About me</h1>
+        <p class="text-center sub-topic">About me</p>
         <h1 class="topic">General</h1>
         <div class="inner-text">
             <p>I was born and raised in Indiana. I have enjoyed learning about and experimenting with
@@ -125,26 +126,34 @@
     </div>
 
     <div class="projects" id="projects">
-        <h1 class="text-center">Projects</h1>
+        <p class="sub-topic text-center">Projects</p>
         <div class="inner-text">
-            <img class="project-place-hold" src="https://i.imgur.com/XlqyvH4.png">
-            <img src="https://i.imgur.com/XlqyvH4.png">
+            <p>Explore my popcode</p>
+            <p class="small-text">*I no longer have access to school projects</p>
+            <a href="https://popcode.org/?snapshot=9a78f17f-faec-44ce-bce6-09666d4269a6">
+            <img class="tic-tac-toe" src="https://i.imgur.com/r2QKFIY.png">
+            </a>
+            <a href="https://popcode.org/?snapshot=9d2a4232-eae4-4a2d-bf50-411be44ca770">
+            <img class="popcode" src="https://i.imgur.com/iB0gu1S.png">
+            </a>
         </div>
     </div>
 
     <div class="contact-me" id="contact-me">
-        <h1 class="text-center">Contact me</h1>
+        <p class="sub-topic text-center">Contact me</p>
         <div class="inner-text">
             <p></p>
             <form class="contact-form" action="https://formspree.io/f/moqyndzw" method="POST">
-                <label class="your-email">
-                    Your email:
-                    <input class="decor-text-area" type="email" name="_replyto">
-                </label>
-                <label class="your-message">
-                    Your message:
-                    <textarea class="decor-text-area" name="message"></textarea>
-                </label>
+                <div class="form-group">
+                    <label class="your-email">
+                        Your email:
+                        <input class="decor-text-area" type="email" name="_replyto">
+                    </label>
+                    <label class="your-message">
+                        Your message:
+                        <textarea class="decor-text-area" name="message"></textarea>
+                    </label>
+                </div>
 
                 <!-- your other form fields go here -->
 

@@ -56,6 +56,10 @@ h1{
     font-size: 50px;
 }
 
+.sub-topic{
+    font-size: 43px;
+}
+
 .header {
     background-color: #373A36;
     font-size: 23px;
@@ -93,7 +97,7 @@ h1{
     background-color: #373A36;
     font-size: 23px;
     color: #9D968D;
-    height: 400px;
+    height: 452px;
     font-family: 'Barlow', sans-serif;
     margin-top: 64px;
     scroll-margin-top: 64px;
@@ -156,29 +160,57 @@ a {
     margin-bottom: 50px;
 }
 
-.project-place-hold{
-        margin-right: 20px;
+.tic-tac-toe{
+    margin-right: 50px;
 }
 
+.tic-tac-toe:hover{
+    width: 287px;
+    height: 267px;
+}
+
+.popcode{
+    width: 215px;
+}
+
+.popcode:hover{
+    width: 240px;
+    height: 80px;
+}
+
+.small-text{
+    font-size: 13px;
+}
 
 .your-email{
     display: flex;
     justify-content: flex-start;
     padding-top: 50px;
-    padding-left: 100px;
+    padding-left: 90px;
+    margin-left: 60px;
 }
 
 .your-message{
     display: flex;
     justify-content: flex-end;
-    padding-bottom: 50px;
+    padding-top: 50px;
     padding-right: 200px;
+    padding-left: 50px;
+    max-height: 90px;
+    min-height: 90px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: row;
 }
 
 .decor-text-area{
     display: flex;
     background-color: #9D968D;
     color: white;
+    margin-left: 10px;
+    max-height: 200px;
 }
 
 .submit-button{
@@ -186,6 +218,8 @@ a {
     color:#ceb888;
     border: 0;
     text-decoration: underline #ceb888;
+    margin-top: 120px;
+    border-radius: 3px;
 }
 
 .submit-button:hover{
@@ -232,3 +266,9 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
+
+.carousel .item img{
+    height: 240px !important;
+    width: 400px !important;
+  }
+  
