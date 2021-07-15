@@ -160,6 +160,49 @@ a {
         margin-right: 20px;
 }
 
+
+.your-email{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.your-message{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    padding-right: 200px;
+}
+
+.decor-text-area{
+    display: flex;
+    background-color: #9D968D;
+    color: white;
+}
+
+.submit-button{
+    background-color: #373A36;
+    color:#ceb888;
+    border: 0;
+    text-decoration: underline #ceb888;
+}
+
+.submit-button:hover{
+    background-color: #9D968D;
+    color: black;
+    text-decoration: underline black;
+}
+
+.form > label {
+    float: left;
+    clear:right;
+}
+
+.form > input {
+    float: right;
+}
+
 .item{
     height: fit-content;
     width: fit-content;
@@ -168,10 +211,6 @@ a {
 .container{
     width: 320px;
     height: 240px;
-}
-
-.vertical-forms{
-    display: flex;
 }
 
 .fix-text{
@@ -192,8 +231,4 @@ a {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-}
-
-.carousel-inner{
- 
 }
